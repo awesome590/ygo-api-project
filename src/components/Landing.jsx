@@ -3,9 +3,13 @@ import Card from './ui/Card';
 
 function Featured() {
   return (
-    <div className='featured__container'>
-      <Card />
-    </div>
+    <section id='landing'>
+      <header>
+        <div className="header__container">
+          <Card />
+        </div>
+      </header>
+    </section>
   );
 }
 

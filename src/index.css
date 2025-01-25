@@ -16,6 +16,7 @@ li {
   list-style-type: none;
 }
 
+/*Nav*/
 nav {
   height: 80px;
   display: flex;
@@ -53,4 +54,17 @@ nav {
 
 .logo {
   width: 160px;
+}
+
+/*Landing*/
+header {
+  height: calc(100vh - 80px);
+}
+
+.header__container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
 }
