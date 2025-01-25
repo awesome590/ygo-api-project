@@ -16,7 +16,7 @@ function Card() {
 
   return (
     <div>
-      <img src={card.image_url}></img>
+      <p>{card.name}</p>
     </div>
   );
 }
